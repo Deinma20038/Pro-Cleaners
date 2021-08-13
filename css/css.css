@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    width: 100%;
+}
+
+
+html {
+    font-family:  sans-serif;
+    font-size: 16px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width:100%;
+}
+
+.hero{
+    display:flex;
+    padding: 0px 0px 30px;
+    width:100%;
+    overflow: hidden;
+    
+}
+
+.hero__main-image{
+    width: 100%;
+    height: 540px;
+    position: relative;
+    opacity: 0.4;
+    
+    
+}
+
+.hero__bg--overlay{
+    background-color: rgb(39,39,39);
+    width: 100%;
+    height: 540px;
+    margin-top: -570px;
+    z-index: -1;
+    position: relative;
+}
+.hero__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.hero__info__text{
+    display: flex;
+    flex-direction: column;
+    z-index:3;
+    margin-left: -1300px;
+    align-self: center;
+    color: white;
+    position: relative;
+}
+
+.hero__info__booking{
+    padding: 30px;
+    background-color:rgb(0,0,0, 0.5);
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    z-index:1;
+    height:400px;
+    margin-top: 50px;
+    
+
+}
+
+.hero__info__text__title{
+    line-height: 35px;
+    font-size: 35px;
+    font-weight:600;
+    
+}
+
+.hero__info__text__bottom-text{
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.hero__info__booking--title{
+    color: white;
+    font-size:22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.hero__info__booking--instruction{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero__info__booking__form{
+display: flex;
+flex-direction: column;
+}
+
+.hero__info__booking__form--details{
+    padding:10px 60px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.hero__info__booking__form--details:hover{
+    box-shadow: 0px 2px 2px 2px rgba(78, 94, 233, 0.2);
+}
+
+
+.hero__info__submit{
+    display: flex;
+    justify-content: center;
+}
+.hero__info__submit--btn{
+    
+    padding:10px 70px ;
+    border:none;
+    border-radius:3px;
+    text-align:center;
+    color:white;
+    background-color:#8DC641;
+   
+    
+}
+
+.hero__info__submit--btn:hover{
+    background-color:rgb(55,78,25,0.9);
+    cursor: pointer;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 60px ;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.features__person{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.features__person__main-image{
+    width: 120px;
+    height: auto;
+    border-radius:300px;
+    margin-bottom: 20px;
+}
+
+
+.features__person__title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features__person__content{
+    text-align: center;
+    line-height: 20px;
+    color: rgb(88, 88, 88);
+}
+
+
+.features__calender{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.features__calender__main-image{
+    width: 100px;
+    height: auto;
+    border-radius:00px;
+    margin-bottom: 40px;
+}
+
+.features__calender__title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features__calender__content{
+    text-align: center;
+    line-height: 20px;
+    color: rgb(88, 88, 88);
+}
+
+
+.features__money{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 40px;
+
+}
+
+.features__money__main-image{
+    width: 100px;
+    height: auto;
+    border-radius:00px;
+    margin-bottom: 40px;
+}
+
+.features__money__title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features__money__content{
+    text-align: center;
+    line-height: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.clients{
+    background-color:#F3F3F3;
+    display: flex;
+    flex-direction: column;
+    padding:60px 60px 30px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.clients__title{
+    font-size: 42px;
+    font-weight:600;
+}
+
+.clients__remarks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients__remarks__client-info--1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+
+}
+
+.clients__remarks__image__circle--1{
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;  
+    margin-bottom:30px;
+}
+
+.clients__remarks__image--1{
+    width:100px;
+    height: 100px;
+    border-radius:50%;  
+}
+
+.clients__remarks__client-info--1__name{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.clients__remarks__client-info--1__remark{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height:20px;
+    font-style: italic;
+}
+
+.clients__remarks__client-rating{
+    height:auto;
+    width: 100px;
+}
+
+.clients__remarks__client-info--2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.clients__remarks__image__circle--2{
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;  
+    margin-bottom:30px;
+}
+
+.clients__remarks__image--2{
+    width:100px;
+    height: 100px;
+    border-radius:50%;  
+}
+
+.clients__remarks__client-info--2__name{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.clients__remarks__client-info--2__remark{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height:20px;
+    font-style: italic;
+}
+
+.clients__remarks__client-rating{
+    height:auto;
+    width: 100px;
+}
+
+footer{
+    background-color:rgb(78, 78, 78);
+    padding: 20px 60px 20px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__copyright{
+    width: 14px;
+    height: auto;
+}
+
+.footer__text{
+    margin-left: 3px;
+    font-size:12px;
+    color: white;
+}
+
+.hero__info__text__bottom-text--mobile{
+    line-height: 35px;
+    text-align: center;
+    display: none;
+    margin-top:30px;
+}
+
+@media (max-width:1024px){
+    .header{
+        padding:20px 10px;
+    }
+
+    .hero__info{
+        flex-direction:column;
+        justify-content:flex-start;
+        
+    }
+
+    .hero__info__booking{
+
+        background-color:black;
+       
+    }
+
+    .hero__bg--overlay{
+        display: none;
+    }
+
+    .hero__main-image{
+        display: none;
+    }
+
+    .hero{
+        flex-direction:column;
+        
+    }
+
+    main{
+        background-color:black;
+    }
+
+    .hero__info__text{
+        margin-left: 5px;
+        color: white;
+        margin-top: 40px;
+        margin-bottom:40px;
+        text-align: left;
+    }
+
+    .hero__info__text__title{
+        text-align: center;
+    }
+
+    .hero__info__text__bottom-text{
+        display:none
+    }
+
+    .hero__info__text__bottom-text--mobile{
+        display:block;
+    }
+
+    .features__person__main-image{
+        width: 40px;
+     
+    }
+
+    .features__money__main-image{
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    .features__calender__main-image{
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    .features__money{
+        margin-left: 10px;
+    }
+
+    .features__calender{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .features__person{
+        margin-right: 10px;
+    }
+
+    .clients__remarks__client-info--2{
+        margin-left: 100px
+    }
+
+    .clients__title{
+        font-size: 42px;
+        font-weight:600;
+        margin-left: 20px;
+    }
+
+    .features{
+        background-color: white;
+    }
+
+}
